@@ -8,7 +8,7 @@ app = Flask(__name__)
 UPLOAD_FOLDER = "static/uploads"
 OUTPUT_FOLDER = "static/generated_cards"
 TEMPLATE_PATH = "card_template.png"
-FONT_PATH = "arial.ttf"  # Replace with your font file path
+FONT_PATH = "arial-font\arial.ttf"  # Replace with your font file path
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 app.config["OUTPUT_FOLDER"] = OUTPUT_FOLDER
 
